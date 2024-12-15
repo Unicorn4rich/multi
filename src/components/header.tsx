@@ -15,7 +15,7 @@ function header() {
     <header className='w-full flex flex-col gap-[16px]'>
 
 {/* top div */}
-        <div className='w-full bg-headerColor h-[54px] px-[62px] xsm:flex justify-between items-center hidden 
+        <div className='w-full px-[300px] bg-headerColor h-[54px] xsm:flex justify-between items-center hidden 
         border-b-[1px] border-[black]'>
 
             <div className='h-[30px] flex justify-center items-center gap-[16px] text-[14px] leading-[150%]'>
@@ -37,15 +37,15 @@ function header() {
 
 {/* bottom div */}
         <div className='w-full h-[72px] xsm:px-[64px] py-[15px] bg-headerColor flex justify-between items-center px-[24px]
-        border-b-[1px] border-[black] fixed top-0'>
+        border-b-[1px] border-[black]'>
 
             <Image src={"/logo.png"} alt="logo" width={130} height={41} />
 
             <div className='xsm:flex justify-between items-center gap-[32px] hidden '>
                 <ul className='flex gap-[52px] justify-center items-center text-[16px]'>
                     <li><Link href="/">Home</Link></li>
-                    <li><Link href="/">Courses</Link></li>
-                    <li><Link href="/">Services</Link></li>
+                    <li><Link href="/about">About Us</Link></li>
+                    <li><Link href="/testimonial">Testimonial</Link></li>
                 </ul>
 
                 <div className='flex justify-center items-center gap-[16px] '>
@@ -55,7 +55,7 @@ function header() {
 
             </div>
 
-            <IoMenu size={24}/>
+            <IoMenu size={24} className='xsm:hidden'/>
 
         </div>
 

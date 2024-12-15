@@ -9,6 +9,14 @@ body{
     margin: auto;
 }
 
+@layer utilities{
+  .myH1{
+    font-size: 48px;
+    line-height: 57px;
+    font-weight: 700;
+  }
+}
+
 
 @layer base {
   :root {

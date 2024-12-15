@@ -10,7 +10,7 @@ export default {
   theme: {
   	extend: {
   		colors: {
-			headerColor: "#F7F7F7",
+			headerColor: "#F7F7F7",  // ye color hamne khud se add kiyya hai
   			primary: {
   				DEFAULT: 'hsl(var(--primary))',
   				foreground: 'hsl(var(--primary-foreground))'
@@ -58,7 +58,7 @@ export default {
   			sm: 'calc(var(--radius) - 4px)'
   		},
 		screens: {
-			"xsm": "428px"
+			"xsm": "428px"  // ye hamne khud se screen bnai hai
 		}
   	}
   },
